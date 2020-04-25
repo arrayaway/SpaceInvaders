@@ -12,8 +12,8 @@ import java.awt.event.KeyEvent;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.InputStream;
-import sun.audio.AudioPlayer;
-import sun.audio.AudioStream;
+//import sun.audio.AudioPlayer;
+//import sun.audio.AudioStream;
  
 
 public class Player extends Sprite implements IExplode {

@@ -8,8 +8,8 @@ package spaceinvaders;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.InputStream;
-import sun.audio.AudioPlayer;
-import sun.audio.AudioStream;
+//import sun.audio.AudioPlayer;
+//import sun.audio.AudioStream;
 
 /**
  *
@@ -40,8 +40,8 @@ public class AudioThread extends Thread
         try 
         {
             sound = new FileInputStream(new File(filepath));
-            AudioStream audios = new AudioStream(sound);
-            AudioPlayer.player.start(audios);
+            //AudioStream audios = new AudioStream(sound);
+            //AudioPlayer.player.start(audios);
         }
         catch (Exception e)
         {
