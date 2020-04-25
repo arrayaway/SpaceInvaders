@@ -12,7 +12,7 @@ public interface Commons {
     int BORDER_LEFT = 5;
 
     int GROUND = 710;
-    int GROUND_UNUSED_DELETE = 710;
+    
 
     int ALIEN_HEIGHT = 24;
     int ALIEN_WIDTH = 24;
